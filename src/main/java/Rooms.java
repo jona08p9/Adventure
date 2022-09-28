@@ -9,18 +9,20 @@ public class Rooms {
 
 
     //konstruktør
-    public Rooms(String name) {
-        this.name = name;
-    }
+    public Rooms(String name) {this.name = name;}
         //todo laves setter og gettere der kan bruges i adventure klassen.
 
         public void setName(String name) {
         this.name = name;
 
         }
-        public void setNorth(Rooms north){
+        public void setNorth(Rooms North){
         this.north = north;
         }
+        public void setEast(Rooms east){this.east = east;}
+        public void setWest(Rooms west){this.west = west;}
+        public void setSouth(Rooms south){this.south = south;}
+
 
 
 
