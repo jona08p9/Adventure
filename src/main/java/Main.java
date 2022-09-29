@@ -16,10 +16,7 @@ public class Main {
         direction = scanner.nextLine();
 
         //todo mangler en metode til at rykke mellem rum i adventure klassen
-        north.equals(adventure.goingNorth());
-        east.equals((adventure.goingEast()));
-        south.equals(adventure.goingSouth());
-        west.equals(adventure.goingWest());
+
 
         System.out.println("Hello hero and welcome to my maze");
         System.out.println("type 9 if you are 2 scared");
@@ -28,13 +25,14 @@ public class Main {
 
 
 
-
-        while (true){
+        if (true) {
 
             System.out.println("Write go north to go north");
             System.out.println("Write go east to go east");
             System.out.println("Write go south to go south");
             System.out.println("Write go west go west");
+            Scanner scan = new Scanner();
+
 
 
             if (direction.equals(north)) {
@@ -50,8 +48,6 @@ public class Main {
                 System.out.println("Going west");
 
             }
-
-
 
 
 
